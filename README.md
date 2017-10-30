@@ -25,8 +25,8 @@ Slimer的core是Gecko, 會將你的firefox打開並執行code step
 先在根目錄下新增一個
 HelloWorld.js, 內容寫上
 ```
-var fs = require('fs');
-var page = require('webpage').create();
+const fs = require('fs');
+const page = require('webpage').create();
 page.open("http://slimerjs.org", function(status){
      if (status == "success") {
          console.log("The title of the page is: "+ page.title);
@@ -43,6 +43,7 @@ page.open("http://slimerjs.org", function(status){
 1. page : Slimer的最基礎物件, 打開網頁以及操作網頁中的DOM都靠它
 2. slimer.exit : 執行時會打開一個virtual window, 這段會直接關掉該視窗
 3. page.render : 截圖用, 會將你目前開啟的網頁截圖到%Slimer_path%中
+4. 已經可以用const來宣告了, 讓我們一起感受ES6的美好 
 
 ## 執行方法
 到根目錄中, 假設你安裝到C:\slimer, 進入cmd中
