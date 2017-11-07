@@ -61,6 +61,7 @@ Hello World目前到這邊, 有空會再逐步增加ES6及page.evaluate()的語�
 
 
 ### ECMAscript 6 & SlimerJs
+==============================
 接下來講的是 :　如何用Slimer移動到某個website, 並對它進行操作
 
 廢話不多說, 先上程式
