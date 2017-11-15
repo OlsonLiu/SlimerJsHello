@@ -60,7 +60,7 @@ slimerjs HelloWorld.js
 Hello World目前到這邊, 有空會再逐步增加ES6及page.evaluate()的語法
 
 
-##ECMAscript 6 & SlimerJs
+## ECMAscript 6 & SlimerJs
 接下來講的是 :　如何用Slimer移動到某個website, 並對它進行操作
 
 廢話不多說, 先上程式
@@ -96,17 +96,17 @@ page.open(url, function(status){
 ## 執行結果
 你應該會得到跟我一樣的結果, 在你的SlimerJs根目錄下有一個 uniqulo.log  
 點開後前幾筆資料為 :  
-男裝 特級極輕羽絨背心 的價格為 :
-        NT$1,490
+> 男裝 特級極輕羽絨背心 的價格為 :
+>        NT$1,490
          
-男裝 特級極輕羽絨背心(2016年款式) 的價格為 :
-        NT$990
+> 男裝 特級極輕羽絨背心(2016年款式) 的價格為 :
+>        NT$990
     
 ## 程式解說
 + page.evaluate : 這是跟Phantom相同的function, evaluate是去你要到的該網頁下的page進行操作,  
 如果你要撈取dom 或是對page的javascript做一些事情, 都需要進到evaluate()下去做
 
-+ 另一個值得一提的點是evaluate()scope是sandbox, 也就是油鹽不進,  
++ 另一個值得一提的點是evaluate()的scope是sandbox, 也就是油鹽不進,  
 你無法從裡面直接取用外部宣告好的variable, 如果真的要依照某個變數做操作,  
 你只能把它當作parameter丟進去, 此外別無他法
 
@@ -117,8 +117,8 @@ page.open(url, function(status){
 + fs.write(), 是將資料寫出成檔案, 還可以傳"w"或"a"的參數來決定是否要overwrite還是append該文件
 
 
-## 些許心得
-如果你執行起來跟我有一樣的感想, "恩...其實好像也不慢嘛",   
+## 些許心得 
+如果你執行起來跟我有一樣的感想, "恩...其實好像也不慢嘛",    
 這就對了 non-headless雖然好像是它的缺點, 但換來的優點是可以用ES6, 筆者的感想是好太多了,   
 需要打開browser這點根本不是問題
 
