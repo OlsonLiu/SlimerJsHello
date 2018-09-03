@@ -16,7 +16,7 @@ Ans :原因有很多, PJS的優勢主要是headless, 缺點卻也不少, 但最�
 =======
 * firefox ver54以下 - Slimer的預設路徑 C:\Program Files (x86)\Mozilla Firefox  
 Slimer的core是Gecko, 會將你的firefox打開並執行code step
-* [Slimerjs](https://slimerjs.org/download.html/)
+* [Slimerjs](https://slimerjs.org/download.html)
 * 一些開發工具, ex : Sublime_text
 
 寫個Hello World
