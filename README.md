@@ -21,7 +21,7 @@ Slimer的core是Gecko, 會將你的firefox打開並執行code step
 
 寫個Hello World
 ===============
-可以參考官方document[官方](https://docs.slimerjs.org/current/quick-start.html/),   
+可以參考官方document[官方](https://docs.slimerjs.org/current/quick-start.html),   
 先在根目錄下新增一個
 HelloWorld.js, 內容寫上
 ```
